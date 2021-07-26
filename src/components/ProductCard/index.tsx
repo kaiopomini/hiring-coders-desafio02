@@ -1,6 +1,6 @@
 import './styles.css'
 
-type ProductProps = {
+export type ProductProps = {
   id: number;
   name: string;
   price: number;
