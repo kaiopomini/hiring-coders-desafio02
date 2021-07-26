@@ -17,7 +17,7 @@ export function ProductCard({data}: Props)  {
   return (
     <div className="product-card">
 
-      <h1>{data.name}</h1>
+      <h1>{`${data.name} - ${data.id}`}</h1>
       <img src={data.imageUrl} alt={data.name} />
       <div className="product-card-content">
         <p>{data.price}</p>
